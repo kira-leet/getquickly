@@ -3,48 +3,93 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Quickly - [One-line description]</title>
-  <meta name="description" content="[One-line description of what Quickly does]">
+  <title>GetQuickly - Find trusted local experts, fast</title>
+  <meta name="description" content="GetQuickly connects people who need a service with trusted local providers. Fast, affordable, and simple.">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #1a1a2e; background: #fafafa; line-height: 1.6; }
-    header { padding: 20px 24px; max-width: 960px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+    body { font-family: Inter, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; color: #111827; background: #fff; line-height: 1.6; }
+    .wrap { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+    header { padding: 20px 0; }
+    header .wrap { display: flex; justify-content: space-between; align-items: center; }
     .logo { font-size: 1.4rem; font-weight: 800; color: #4f46e5; }
-    nav a { color: #1a1a2e; text-decoration: none; font-weight: 500; }
-    .hero { max-width: 960px; margin: 0 auto; padding: 80px 24px 60px; text-align: center; }
-    .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); line-height: 1.15; margin-bottom: 20px; }
-    .hero p { font-size: 1.2rem; color: #555; max-width: 640px; margin: 0 auto 32px; }
-    .btn { display: inline-block; background: #4f46e5; color: #fff; padding: 14px 28px; border-radius: 10px; text-decoration: none; font-weight: 600; }
-    .features { max-width: 960px; margin: 0 auto; padding: 40px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
-    .card { background: #fff; border: 1px solid #e5e5ee; border-radius: 14px; padding: 24px; }
-    .card h3 { margin-bottom: 8px; color: #4f46e5; }
-    .status { text-align: center; padding: 30px 24px; color: #555; }
-    footer { text-align: center; padding: 40px 24px; color: #777; font-size: 0.9rem; border-top: 1px solid #e5e5ee; margin-top: 40px; }
-    footer a { color: #4f46e5; }
+    nav a { color: #374151; text-decoration: none; font-weight: 500; }
+    .hero { text-align: center; padding: 80px 0 60px; }
+    .badge { display: inline-block; background: #eef2ff; color: #4f46e5; padding: 6px 14px; border-radius: 999px; font-size: .85rem; font-weight: 600; margin-bottom: 20px; }
+    .hero h1 { font-size: clamp(2rem, 6vw, 3.4rem); line-height: 1.12; margin-bottom: 18px; }
+    .hero p { font-size: 1.15rem; color: #4b5563; max-width: 620px; margin: 0 auto 32px; }
+    .btn { display: inline-block; background: #4f46e5; color: #fff; padding: 14px 28px; border-radius: 12px; text-decoration: none; font-weight: 600; }
+    .btn.alt { background: #fff; color: #4f46e5; border: 1px solid #c7d2fe; margin-left: 8px; }
+    section { padding: 50px 0; }
+    h2 { font-size: 1.8rem; text-align: center; margin-bottom: 30px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 18px; }
+    .card { background: #fafafa; border: 1px solid #e5e7eb; border-radius: 16px; padding: 24px; }
+    .card h3 { margin-bottom: 8px; color: #4f46e5; font-size: 1.05rem; }
+    .card p { color: #4b5563; font-size: .96rem; }
+    .alt-bg { background: #f9fafb; }
+    .center { text-align: center; color: #4b5563; max-width: 640px; margin: 0 auto; }
+    footer { text-align: center; padding: 40px 24px; color: #6b7280; font-size: .9rem; border-top: 1px solid #e5e7eb; }
+    footer a { color: #4f46e5; text-decoration: none; }
   </style>
 </head>
 <body>
   <header>
-    <div class="logo">Quickly</div>
-    <nav><a href="mailto:ahmedalaoui@getquickly.app">Contact</a></nav>
+    <div class="wrap">
+      <div class="logo">GetQuickly</div>
+      <nav><a href="mailto:ahmedalaoui@getquickly.app">Contact</a></nav>
+    </div>
   </header>
 
-  <section class="hero">
-    <h1>[Your main headline: what Quickly does]</h1>
-    <p>[One or two sentences: the problem you solve and who it is for.]</p>
-    <a class="btn" href="mailto:ahmedalaoui@getquickly.app">Get in touch</a>
+  <div class="wrap hero">
+    <span class="badge">Now building our MVP</span>
+    <h1>Find trusted local experts. Fast.</h1>
+    <p>Need a skill, big or small? GetQuickly connects you with trusted local service providers, and helps skilled people turn their talent into income.</p>
+    <a class="btn" href="mailto:ahmedalaoui@getquickly.app?subject=Early%20access">Get early access</a>
+    <a class="btn alt" href="#how">How it works</a>
+  </div>
+
+  <section class="alt-bg">
+    <div class="wrap">
+      <h2>The problem</h2>
+      <div class="grid">
+        <div class="card"><h3>Hard to find trust</h3><p>It is difficult to find reliable service providers nearby.</p></div>
+        <div class="card"><h3>No single place</h3><p>Services are scattered across many apps and groups.</p></div>
+        <div class="card"><h3>Wasted time</h3><p>Too much back-and-forth to negotiate and communicate.</p></div>
+        <div class="card"><h3>Few opportunities</h3><p>Freelancers and young people struggle to find paid work.</p></div>
+      </div>
+    </div>
   </section>
 
-  <section class="features">
-    <div class="card"><h3>[Feature 1]</h3><p>[Short description of the first benefit.]</p></div>
-    <div class="card"><h3>[Feature 2]</h3><p>[Short description of the second benefit.]</p></div>
-    <div class="card"><h3>[Feature 3]</h3><p>[Short description of the third benefit.]</p></div>
+  <section id="how">
+    <div class="wrap">
+      <h2>How it works</h2>
+      <div class="grid">
+        <div class="card"><h3>1. Search</h3><p>Browse local providers by skill, city, price, and rating.</p></div>
+        <div class="card"><h3>2. Connect</h3><p>View their work, chat directly, and agree on the job.</p></div>
+        <div class="card"><h3>3. Review</h3><p>Rate the experience and help the community trust the best experts.</p></div>
+      </div>
+    </div>
   </section>
 
-  <p class="status">Quickly is currently in MVP stage. Built with Claude.</p>
+  <section class="alt-bg">
+    <div class="wrap">
+      <h2>Who it's for</h2>
+      <div class="grid">
+        <div class="card"><h3>Skilled individuals</h3><p>Freelancers, students, and hobbyists who want to showcase their work and earn.</p></div>
+        <div class="card"><h3>Busy people and families</h3><p>Quick, affordable help for small tasks.</p></div>
+        <div class="card"><h3>Small businesses</h3><p>On-demand support without hiring a large company.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>Our vision</h2>
+      <p class="center">Some people need work. Others need that work done. GetQuickly brings them together in one simple, trusted platform, like TaskRabbit meets Fiverr, built for local communities.</p>
+    </div>
+  </section>
 
   <footer>
-    &copy; 2026 Quickly. Contact: <a href="mailto:ahmedalaoui@getquickly.app">ahmedalaoui@getquickly.app</a>
+    &copy; 2026 GetQuickly. Contact: <a href="mailto:ahmedalaoui@getquickly.app">ahmedalaoui@getquickly.app</a>
   </footer>
 </body>
 </html>
